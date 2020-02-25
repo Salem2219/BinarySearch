@@ -1,5 +1,5 @@
 # Binary Search
-Basic Finite State Machine with Datapath (FSMD) example to search for the value key(8 bits) in the nindecreaing array (rom) L[],..,,L[j]. If key
+Basic Finite State Machine with Datapath (FSMD) example to search for the value key(8 bits) in the nindecreaing array (rom) L[i],..,,L[j]. If key
 is found, the program outputs an index k such that L[k] equals key. If key is not found, the program outputs notfound = '1'. i and j are 4 bits each.
 
 ## Note
