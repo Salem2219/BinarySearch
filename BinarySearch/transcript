@@ -1,0 +1,77 @@
+# vsim work.tb 
+# Start time: 02:07:15 on Feb 25,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.tb(behav)
+# Loading work.bsearch(rtl)
+# Loading work.bsearch_dp(rtl)
+# Loading work.mux_2_1(first)
+# Loading work.reg_par(rtl)
+# Loading work.rom_16x8bit(rtl)
+# Loading work.lessthanorequal(rtl)
+# Loading work.comp(rtl)
+# Loading work.compless(rtl)
+# Loading work.or_gate(rtl)
+# Loading work.comp8(rtl)
+# Loading work.compless8(rtl)
+# Loading work.half_avg(rtl)
+# Loading work.add_sub(rtl)
+# Loading work.bsearch_ctrl(rtl)
+add wave -position end  sim:/tb/clk
+add wave -position end  sim:/tb/rst
+add wave -position end  sim:/tb/start
+add wave -position end  sim:/tb/notfound
+add wave -position end  sim:/tb/i
+add wave -position end  sim:/tb/j
+add wave -position end  sim:/tb/b
+add wave -position end  sim:/tb/key
+add wave -position end  sim:/tb/clockperiod
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/dut/datapath/j_add
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/dut/datapath/j_add
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/dut/datapath/ij_halfavg
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/dut/datapath/ij_halfavg
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/dut/datapath/Lkey_compless
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/dut/datapath/Lkey_compless
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/dut/datapath/ilessthanorequal/u2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/dut/datapath/ilessthanorequal/u2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/dut/datapath/L_rom
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/dut/datapath/L_rom
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb/dut/datapath/j_add
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb/dut/datapath/ij_halfavg
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb/dut/datapath/ij_halfavg
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb/dut/datapath/L_rom
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 2  Instance: /tb/dut/datapath/L_rom
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /tb/dut/datapath/j_add
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/tb/dut/datapath/L_rom/program
+# End time: 02:07:58 on Feb 25,2020, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 16
